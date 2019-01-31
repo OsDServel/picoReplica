@@ -1,0 +1,100 @@
+/*navbar details section*/
+.nav-bar {
+	display: inline-block;
+	margin-top: 25px;
+}
+p {
+	position: relative;
+	left: 50px;
+	font-size: 25px;
+}
+ul {
+	float: right;
+	position: relative;
+	right: 100px;
+}
+ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+ul li a{
+	color: grey;
+}
+ul li a:hover{
+	color: orange;
+}
+
+/*jumbotron section CSS*/
+div.jumbotron h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+}
+div.jumbotron h1 span{
+	font-weight: bold;
+}
+div.jumbotron p{
+	color: #D8D8D8;
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+div.jumbotron p span{
+	color: #ff6760;
+}
+.jumbotron button{
+	color: white;
+	font-weight: bold;
+	padding:15px;
+	border-radius: 5%;
+}
+
+/*Grey Button Section CSS*/
+#greyButtonArea .row{
+	background-color: lightgrey;
+}
+.col-4{
+	margin-right: -20px;
+	text-align: center;
+}
+.col-4 i{
+	margin-top: 20px;
+	color: #616161;
+}
+.big-icon{
+	font-size: 35px;
+}
+.col-4 h3{
+	color: #616161;
+	font-size: 25px;
+}
+.col-4 p{
+	font-size: 16px;
+	margin: auto;
+	position: relative;
+	left: 10px;
+	color: #616161;
+}
+/*Footer*/
+#footer{
+	text-align: center;
+	padding-top: 50px;
+}
+#footer h2{
+	color: lightgrey;
+	padding-bottom: 30px;
+}
+#footer p{
+	color: grey;
+	font-size: 18px; 
+}
+#footer span{
+	color: #793F3D;
+	text-decoration : underline;
+}
+#footerIcons i{
+	font-size: 20px;
+	color: white;
+	width: 40px;
+	height: 30px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+}
